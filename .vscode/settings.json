@@ -1,0 +1,16 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.readonlyInclude": {
+    "src/routeTree.gen.ts": true
+  },
+  "search.exclude": {
+    "src/routeTree.gen.ts": true,
+    "pnpm-lock.yaml": true
+  }
+}
