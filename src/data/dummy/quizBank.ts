@@ -93,4 +93,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Provider menyetor pasangan token ke pool; pool digunakan untuk swap dan provider berbagi imbal hasil.',
     topic: 'DeFi',
   },
+  {
+    question: 'Apa itu impermanent loss?',
+    options: ['Rugi relatif bagi liquidity provider saat harga pasangan bergerak jauh', 'Kehilangan sinyal WiFi', 'Tagihan listrik naik', 'Lupa password'],
+    answerIndex: 0,
+    explanation: 'Rugi relatif ketika nilai deposit di pool lebih rendah dibanding hanya memegang token awal.',
+    topic: 'DeFi',
+  },
 ];
