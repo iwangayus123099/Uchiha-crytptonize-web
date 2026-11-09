@@ -58,4 +58,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Utility token memberi akses atau berfungsi sebagai alat pembayaran layanan di ekosistemnya.',
     topic: 'Token',
   },
+  {
+    question: 'Apa itu stablecoin?',
+    options: ['Coin yang fluktuasinya paling hebat', 'Coin yang dipatok aset stabil seperti USD', 'Coin besi fisik', 'Emas fisik di bank'],
+    answerIndex: 1,
+    explanation: 'Stablecoin dipatok nilai stabil sehingga sering dipakai menyimpan likuiditas.',
+    topic: 'Token',
+  },
 ];
