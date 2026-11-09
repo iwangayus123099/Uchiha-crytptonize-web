@@ -114,4 +114,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Fork adalah perubahan aturan di jaringan; hard fork bisa memisahkan rantai baru.',
     topic: 'Dasar Blockchain',
   },
+  {
+    question: 'Apa itu node?',
+    options: ['Sel nodal dalam tubuh manusia', 'Komputer yang menyimpan dan menyebarkan data blockchain', 'Model AI canggih', 'Jendela browser'],
+    answerIndex: 1,
+    explanation: 'Node menjaga sinkronisasi data jaringan; makin banyak node makin terdesentralisasi.',
+    topic: 'Dasar Blockchain',
+  },
 ];
