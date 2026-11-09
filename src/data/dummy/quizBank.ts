@@ -317,4 +317,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Slippage besar di pasar likuiditas rendah; cek sebelum melakukan swap.',
     topic: 'Trading',
   },
+  {
+    question: 'Mengapa tidak boleh investasi dengan uang pinjaman?',
+    options: ['Memperkecil efek rugi bagi keuangan', 'Hanya memperlambat waktu kaya', 'Tidak masuk akal untuk semua orang', 'Tren tahun 90-an'],
+    answerIndex: 0,
+    explanation: 'Menggunakan dana utang membuat kerugian sulit dipulihkan; gunakan dana cadangan.',
+    topic: 'Investing',
+  },
 ];
