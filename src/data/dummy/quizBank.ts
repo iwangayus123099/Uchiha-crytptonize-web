@@ -79,4 +79,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'DEX memfasilitasi swap via smart contract tanpa pihak tengah yang menyimpan saldo.',
     topic: 'DeFi',
   },
+  {
+    question: 'Apa itu AMM?',
+    options: ['Automatic Money Maker', 'Automated Market Maker: harga dihitung dari pool likuiditas', 'Anti-Money Market', 'Aplikasi Multi-Market'],
+    answerIndex: 1,
+    explanation: 'AMM menghitung harga otomatis dari rasio token di pool, misalnya formula x*y=k.',
+    topic: 'DeFi',
+  },
 ];
