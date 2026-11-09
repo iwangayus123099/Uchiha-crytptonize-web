@@ -65,4 +65,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Stablecoin dipatok nilai stabil sehingga sering dipakai menyimpan likuiditas.',
     topic: 'Token',
   },
+  {
+    question: 'Apa itu DeFi?',
+    options: ['Digital Freedom', 'Keuangan terdesentralisasi tanpa pihak tengah', 'Definisi Fisik', 'Desain Fisik'],
+    answerIndex: 1,
+    explanation: 'DeFi adalah protokol keuangan di blockchain seperti swap dan lending tanpa bank.',
+    topic: 'DeFi',
+  },
 ];
