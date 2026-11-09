@@ -44,4 +44,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Miner menghitung hash; yang berhasil membuat blok baru mendapatkan reward.',
     topic: 'Konsensus',
   },
+  {
+    question: 'Apa itu staking?',
+    options: ['Menahan coin di jaringan untuk memperoleh imbal hasil', 'Menjual aset saat pasar naik', 'Membeli NFT unggulan', 'Menaikkan taruhan'],
+    answerIndex: 0,
+    explanation: 'Staking mengikat token (biasanya di jaringan PoS) untuk mendukung validasi dan memperoleh reward.',
+    topic: 'Konsensus',
+  },
 ];
