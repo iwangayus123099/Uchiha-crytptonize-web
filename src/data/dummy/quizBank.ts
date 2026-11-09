@@ -1,4 +1,14 @@
-export interface QuizItem {\n  question: string;\n  options: string[];\n  answerIndex: number;\n  explanation: string;\n  topic: string;\n}\n\n/** Bank soal dummy (ditambah bertahap, satu soal per commit). */\nexport const quizBank: QuizItem[] = [\n  {
+export interface QuizItem {
+  question: string;
+  options: string[];
+  answerIndex: number;
+  explanation: string;
+  topic: string;
+}
+
+/** Bank soal dummy (ditambah bertahap, satu soal per commit). */
+export const quizBank: QuizItem[] = [
+  {
     question: 'Apa itu blockchain?',
     options: [
       'Database terpusat milik satu perusahaan',
