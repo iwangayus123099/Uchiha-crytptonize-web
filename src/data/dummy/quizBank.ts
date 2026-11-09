@@ -240,4 +240,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Market cap mengukur ukuran relatif koin, bukan sekadar harga per unit.',
     topic: 'Riset',
   },
+  {
+    question: 'Apa itu circulating supply?',
+    options: ['Total token yang pernah dicetak', 'Jumlah token yang benar-benar beredar di pasar saat ini', 'Absensi kantor', 'Ukuran tanah rumah'],
+    answerIndex: 1,
+    explanation: 'Circulating supply dipakai menghitung market cap yang realistis.',
+    topic: 'Riset',
+  },
 ];
