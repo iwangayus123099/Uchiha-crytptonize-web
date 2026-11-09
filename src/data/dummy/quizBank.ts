@@ -226,4 +226,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Tokenomics memengaruhi valuasi: supply maksimum, distribusi, reward, dan mekanisme burn.',
     topic: 'Riset',
   },
+  {
+    question: 'Apa itu audit token?',
+    options: ['Cek fisik kartu ATM', 'Pengujian keamanan smart contract oleh pihak ketiga', 'Bank mingguan', 'Kegiatan basket'],
+    answerIndex: 1,
+    explanation: 'Audit menguji celah kode smart contract; hasilnya membantu menilai risiko token.',
+    topic: 'Riset',
+  },
 ];
