@@ -30,4 +30,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Hot wallet praktis namun lebih rawan serangan; cold wallet offline, cocok untuk dana besar.',
     topic: 'Wallet',
   },
+  {
+    question: 'Apa itu gas fee?',
+    options: ['Biaya menyalakan PC', 'Biaya transaksi di blockchain', 'Jenis tagihan listrik', 'Diskon pembelian token'],
+    answerIndex: 1,
+    explanation: 'Gas fee adalah biaya komputasi transaksi di jaringan, misalnya di Ethereum.',
+    topic: 'Dasar Blockchain',
+  },
 ];
