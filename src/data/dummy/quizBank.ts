@@ -261,4 +261,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Airdrop memberi token sebagai insentif komunitas atau kampanye pemasaran.',
     topic: 'Token',
   },
+  {
+    question: 'Mengapa diversifikasi portofolio penting?',
+    options: ['Tren media sosial', 'Mengurangi risiko kerugian saat satu aset jatuh', 'Agar terlihat rajin', 'Supaya tidak bosan'],
+    answerIndex: 1,
+    explanation: 'Diversifikasi membagi risiko: kerugian dari satu aset dapat diimbangi aset lain.',
+    topic: 'Investing',
+  },
 ];
