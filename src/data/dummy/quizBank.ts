@@ -268,4 +268,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Diversifikasi membagi risiko: kerugian dari satu aset dapat diimbangi aset lain.',
     topic: 'Investing',
   },
+  {
+    question: 'Apa itu FOMO?',
+    options: ['Fear of Missing Out: membeli impulsif karena takut ketinggalan', 'Fee On Market Orders', 'Fokus Online Masif', 'Tiket konser'],
+    answerIndex: 0,
+    explanation: 'FOMO memicu keputusan emosional; buat rencana sebelum membeli.',
+    topic: 'Psikologi',
+  },
 ];
