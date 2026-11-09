@@ -198,4 +198,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'L2 memproses transaksi off-chain lalu menambahkan bukti ke chain utama: murah dan cepat.',
     topic: 'Skala',
   },
+  {
+    question: 'Apa itu bridge crypto?',
+    options: ['Jembatan kaki di jalan raya', 'Penghubung antar chain untuk memindahkan token', 'Kode pos bandar', 'Sambungan data printer'],
+    answerIndex: 1,
+    explanation: 'Bridge memindahkan token antar chain; berisiko jika belum ter-audit dengan matang.',
+    topic: 'Skala',
+  },
 ];
