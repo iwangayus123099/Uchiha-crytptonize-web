@@ -149,4 +149,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Public key boleh disebar; dipakai untuk menerima dana dan memverifikasi tanda tangan digital.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Apa itu multisig wallet?',
+    options: ['Banyak orang harus tahu sandinya', 'Wallet yang membutuhkan beberapa tanda tangan untuk transaksi', 'Gadget pendamping', 'Kotak pos melingkar'],
+    answerIndex: 1,
+    explanation: 'Multisig membagi kendali ke beberapa kunci, cocok untuk dana bersama tim.',
+    topic: 'Keamanan',
+  },
 ];
