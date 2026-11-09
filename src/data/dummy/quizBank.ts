@@ -107,4 +107,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Smart contract adalah kode yang dieksekusi di blockchain dengan aturan tetap.',
     topic: 'Dasar Blockchain',
   },
+  {
+    question: 'Apa itu fork di blockchain?',
+    options: ['Garpu makan', 'Percabangan protokol atau jaringan', 'Koin logam kuno', 'Jasa kurir cepat'],
+    answerIndex: 1,
+    explanation: 'Fork adalah perubahan aturan di jaringan; hard fork bisa memisahkan rantai baru.',
+    topic: 'Dasar Blockchain',
+  },
 ];
