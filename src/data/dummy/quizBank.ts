@@ -275,4 +275,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'FOMO memicu keputusan emosional; buat rencana sebelum membeli.',
     topic: 'Psikologi',
   },
+  {
+    question: 'Apa itu FUD?',
+    options: ['Fungsi Unit Data', 'Fear, Uncertainty, Doubt: sentimen negatif yang menekan harga', 'Fitur Unik Dev', 'Karakter film'],
+    answerIndex: 1,
+    explanation: 'FUD bisa memicu panik menjual; tetap berpegang pada rencana investasi yang berjalan.',
+    topic: 'Psikologi',
+  },
 ];
