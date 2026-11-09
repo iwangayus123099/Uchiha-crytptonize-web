@@ -184,4 +184,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'NFT merepresentasikan aset unik seperti seni atau item game yang tercatat di chain.',
     topic: 'NFT',
   },
+  {
+    question: 'Apa itu metaverse crypto?',
+    options: ['Universitas daring', 'Dunia virtual berbasis blockchain yang memakai token dan NFT', 'Alat ukur medis', 'Portofolio saham bank'],
+    answerIndex: 1,
+    explanation: 'Metaverse memakai token dan NFT untuk kepemilikan tanah virtual, avatar, dan item.',
+    topic: 'NFT',
+  },
 ];
