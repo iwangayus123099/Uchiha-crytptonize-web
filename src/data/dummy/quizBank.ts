@@ -254,4 +254,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Burn mengurangi supply; dipakai untuk mengelola tokenomics sebuah protokol.',
     topic: 'Token',
   },
+  {
+    question: 'Apa itu airdrop?',
+    options: ['Penumpang melompat', 'Distribusi token gratis ke komunitas atau holder tertentu', 'Mal penjualan antiques', 'Sedekah air'],
+    answerIndex: 1,
+    explanation: 'Airdrop memberi token sebagai insentif komunitas atau kampanye pemasaran.',
+    topic: 'Token',
+  },
 ];
