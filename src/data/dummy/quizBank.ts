@@ -142,4 +142,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Address berasal dari public key dan boleh dibagikan untuk menerima dana.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Apa itu public key?',
+    options: ['Kunci pintu rumah', 'Kunci publik untuk generate address dan verifikasi tanda tangan', 'Kode WiFi', 'Tanda tangan basah di dokumen'],
+    answerIndex: 1,
+    explanation: 'Public key boleh disebar; dipakai untuk menerima dana dan memverifikasi tanda tangan digital.',
+    topic: 'Keamanan',
+  },
 ];
