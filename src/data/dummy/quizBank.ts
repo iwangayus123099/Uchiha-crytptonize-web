@@ -289,4 +289,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Stop-loss membatasi kerugian agar rencana keuangan tetap terkendali.',
     topic: 'Investing',
   },
+  {
+    question: 'Apa itu candle merah pada grafik?',
+    options: ['Harga melonjak tinggi', 'Penutupan di bawah pembukaan, tanda penekanan jual', 'Harga naik perlahan', 'Waktu pasar sepi'],
+    answerIndex: 1,
+    explanation: 'Candle merah menunjukkan harga turun dalam periode tersebut.',
+    topic: 'Trading',
+  },
 ];
