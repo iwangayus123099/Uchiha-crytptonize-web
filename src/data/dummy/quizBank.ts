@@ -156,4 +156,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Multisig membagi kendali ke beberapa kunci, cocok untuk dana bersama tim.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Mengapa seed phrase tidak boleh disimpan di cloud?',
+    options: ['Kertas lebih murah', 'Karena bisa bocor lewat akses online yang dicuri', 'Agar hemat stok foto', 'Untuk hemat baterai'],
+    answerIndex: 1,
+    explanation: 'Cloud dapat diakses oleh orang lain jika akun bocor; catat offline di media fisik.',
+    topic: 'Keamanan',
+  },
 ];
