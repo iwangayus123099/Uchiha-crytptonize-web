@@ -72,4 +72,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'DeFi adalah protokol keuangan di blockchain seperti swap dan lending tanpa bank.',
     topic: 'DeFi',
   },
+  {
+    question: 'Apa itu DEX?',
+    options: ['Desktop Exchange', 'Bursa terdesentralisasi yang tidak menahan dana pengguna', 'Diskon Ekspress', 'Data Extensible'],
+    answerIndex: 1,
+    explanation: 'DEX memfasilitasi swap via smart contract tanpa pihak tengah yang menyimpan saldo.',
+    topic: 'DeFi',
+  },
 ];
