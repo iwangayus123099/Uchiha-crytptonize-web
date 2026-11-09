@@ -100,4 +100,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Rugi relatif ketika nilai deposit di pool lebih rendah dibanding hanya memegang token awal.',
     topic: 'DeFi',
   },
+  {
+    question: 'Apa itu smart contract?',
+    options: ['Kontrak kertas menotaris', 'Program di blockchain yang berjalan otomatis tanpa pihak tengah', 'SMS dari pemerintah', 'Kartu SIM ganda'],
+    answerIndex: 1,
+    explanation: 'Smart contract adalah kode yang dieksekusi di blockchain dengan aturan tetap.',
+    topic: 'Dasar Blockchain',
+  },
 ];
