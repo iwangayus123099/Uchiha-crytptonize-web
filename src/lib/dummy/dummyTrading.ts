@@ -4,7 +4,7 @@
  * dibuat atau dilakukan secara nyata. Aman untuk dijadikan bahan demo.
  */
 
-import { dummyCoins, type DummyCoin } from '../data/dummy/dummyData';
+import { dummyCoins, type DummyCoin } from '../../data/dummy/dummyData';
 
 export type OrderSide = 'BUY' | 'SELL';
 
