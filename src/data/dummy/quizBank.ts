@@ -177,4 +177,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Waspadai token baru: cek tim, audit, dan status kunci likuiditas sebelum membeli.',
     topic: 'Scam Awareness',
   },
+  {
+    question: 'Apa itu NFT?',
+    options: ['New Finance Technologies', 'Token non-fungible: dokumen kepemilikan aset unik di blockchain', 'Net Fixed Tax', 'Nomor Faktur Text'],
+    answerIndex: 1,
+    explanation: 'NFT merepresentasikan aset unik seperti seni atau item game yang tercatat di chain.',
+    topic: 'NFT',
+  },
 ];
