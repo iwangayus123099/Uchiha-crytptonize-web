@@ -282,4 +282,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'FUD bisa memicu panik menjual; tetap berpegang pada rencana investasi yang berjalan.',
     topic: 'Psikologi',
   },
+  {
+    question: 'Apa itu stop-loss?',
+    options: ['Instruksi otomatis menjual saat harga turun ke batas tertentu', 'Kunci parkir mobil', 'Diskon sementara', 'Mode tidur ponsel'],
+    answerIndex: 0,
+    explanation: 'Stop-loss membatasi kerugian agar rencana keuangan tetap terkendali.',
+    topic: 'Investing',
+  },
 ];
