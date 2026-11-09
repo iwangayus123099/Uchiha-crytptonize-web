@@ -219,4 +219,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Whitepaper penting untuk memahami tujuan, tokenomics, dan roadmap sebuah proyek.',
     topic: 'Riset',
   },
+  {
+    question: 'Apa itu tokenomics?',
+    options: ['Ilmu supply, distribusi, dan insentif token', 'Alat ukur berat logam', 'Ekonomi warga', 'Uang kertas kuno'],
+    answerIndex: 0,
+    explanation: 'Tokenomics memengaruhi valuasi: supply maksimum, distribusi, reward, dan mekanisme burn.',
+    topic: 'Riset',
+  },
 ];
