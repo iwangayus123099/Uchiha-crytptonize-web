@@ -212,4 +212,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Saat jaringan ramai, pengguna menawar gas lebih tinggi agar transaksi diproses lebih dulu.',
     topic: 'Skala',
   },
+  {
+    question: 'Apa itu whitepaper?',
+    options: ['Kertas A4 warna putih', 'Dokumen resmi yang menjelaskan teknologi dan ekonomi sebuah proyek', 'Buku tulis sekolah', 'Poster iklan olahraga'],
+    answerIndex: 1,
+    explanation: 'Whitepaper penting untuk memahami tujuan, tokenomics, dan roadmap sebuah proyek.',
+    topic: 'Riset',
+  },
 ];
