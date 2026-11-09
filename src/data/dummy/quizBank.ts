@@ -23,4 +23,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Seed phrase adalah cadangan berupa frasa untuk memulihkan wallet; disimpan offline di tempat aman.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Bedanya hot wallet dan cold wallet?',
+    options: ['Hot offline, cold online', 'Tidak ada bedanya', 'Hot terhubung internet dan praktis, cold offline dan lebih aman', 'Hot hanya dipakai di ATM'],
+    answerIndex: 2,
+    explanation: 'Hot wallet praktis namun lebih rawan serangan; cold wallet offline, cocok untuk dana besar.',
+    topic: 'Wallet',
+  },
 ];
