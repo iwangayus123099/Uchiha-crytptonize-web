@@ -86,4 +86,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'AMM menghitung harga otomatis dari rasio token di pool, misalnya formula x*y=k.',
     topic: 'DeFi',
   },
+  {
+    question: 'Apa itu liquidity pool?',
+    options: ['Kapal di laut', 'Kolam pasangan token yang dipakai AMM untuk swap', 'File Excel besar', 'Jaringan WiFi'],
+    answerIndex: 1,
+    explanation: 'Provider menyetor pasangan token ke pool; pool digunakan untuk swap dan provider berbagi imbal hasil.',
+    topic: 'DeFi',
+  },
 ];
