@@ -233,4 +233,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Audit menguji celah kode smart contract; hasilnya membantu menilai risiko token.',
     topic: 'Riset',
   },
+  {
+    question: 'Apa itu market cap?',
+    options: ['Uang kertas dalam tas', 'Harga satuan token dikali jumlah supply beredar', 'Modal dagang sehari', 'Isi tangki penuh'],
+    answerIndex: 1,
+    explanation: 'Market cap mengukur ukuran relatif koin, bukan sekadar harga per unit.',
+    topic: 'Riset',
+  },
 ];
