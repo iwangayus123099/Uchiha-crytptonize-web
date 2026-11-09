@@ -135,4 +135,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Halving membuat laju supply baru Bitcoin menipis, sehingga BTC semakin langka bertahap.',
     topic: 'Konsensus',
   },
+  {
+    question: 'Apa itu address crypto?',
+    options: ['Alamat rumah fisik', 'Identifier publik untuk menerima crypto', 'Kode pos negara', 'Nomor telepon'],
+    answerIndex: 1,
+    explanation: 'Address berasal dari public key dan boleh dibagikan untuk menerima dana.',
+    topic: 'Keamanan',
+  },
 ];
