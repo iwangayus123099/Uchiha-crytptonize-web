@@ -37,4 +37,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Gas fee adalah biaya komputasi transaksi di jaringan, misalnya di Ethereum.',
     topic: 'Dasar Blockchain',
   },
+  {
+    question: 'Apa itu mining di jaringan PoW?',
+    options: ['Menggali tanah', 'Validasi transaksi dengan perhitungan hash', 'Membeli token dalam jumlah besar', 'Mengunggah foto profil'],
+    answerIndex: 1,
+    explanation: 'Miner menghitung hash; yang berhasil membuat blok baru mendapatkan reward.',
+    topic: 'Konsensus',
+  },
 ];
