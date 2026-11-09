@@ -296,4 +296,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Candle merah menunjukkan harga turun dalam periode tersebut.',
     topic: 'Trading',
   },
+  {
+    question: 'Apa itu volume pada grafik?',
+    options: ['Jumlah transaksi yang terjadi dalam periode', 'Volume fisik koin', 'Keramaian musik', 'Ukuran tas belanja'],
+    answerIndex: 0,
+    explanation: 'Volume mencerminkan tingkat keterlibatan pasar; trend kuat biasanya diiringi volume tinggi.',
+    topic: 'Trading',
+  },
 ];
