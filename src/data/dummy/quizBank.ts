@@ -170,4 +170,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Jangan klik tautan tak terverifikasi; selalu cek domain sebelum memasukkan seed phrase.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Apa itu rug pull?',
+    options: ['Tarik sarip block', 'Penipuan: pengembang menarik likuiditas lalu menghilang', 'Senam pagi umum', 'Tekanan udara di ban'],
+    answerIndex: 1,
+    explanation: 'Waspadai token baru: cek tim, audit, dan status kunci likuiditas sebelum membeli.',
+    topic: 'Scam Awareness',
+  },
 ];
