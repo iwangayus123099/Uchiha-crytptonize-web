@@ -51,4 +51,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Staking mengikat token (biasanya di jaringan PoS) untuk mendukung validasi dan memperoleh reward.',
     topic: 'Konsensus',
   },
+  {
+    question: 'Apa itu utility token?',
+    options: ['Token khusus kupon sampingan', 'Token yang dipakai mengakses layanan di ekosistemnya', 'Token hadiah gratis', 'Token program loyalitas'],
+    answerIndex: 1,
+    explanation: 'Utility token memberi akses atau berfungsi sebagai alat pembayaran layanan di ekosistemnya.',
+    topic: 'Token',
+  },
 ];
