@@ -128,4 +128,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Block height adalah jumlah blok sejak blok pertama; dipakai juga untuk mengukur waktu jaringan.',
     topic: 'Dasar Blockchain',
   },
+  {
+    question: 'Apa itu halving pada Bitcoin?',
+    options: ['Perayaan tahunan komunitas', 'Reward blok dikurangi setengah setiap 210.000 blok', 'Diskon mega di pasar', 'Pemotongan sinyal internet'],
+    answerIndex: 1,
+    explanation: 'Halving membuat laju supply baru Bitcoin menipis, sehingga BTC semakin langka bertahap.',
+    topic: 'Konsensus',
+  },
 ];
