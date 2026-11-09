@@ -247,4 +247,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Circulating supply dipakai menghitung market cap yang realistis.',
     topic: 'Riset',
   },
+  {
+    question: 'Apa itu burn token?',
+    options: ['Bakar uang kertas fisik', 'Pemusnahan token secara permanen untuk mengubah supply', 'Hasil periksa dokter', 'Gaya bicara pejabat'],
+    answerIndex: 1,
+    explanation: 'Burn mengurangi supply; dipakai untuk mengelola tokenomics sebuah protokol.',
+    topic: 'Token',
+  },
 ];
