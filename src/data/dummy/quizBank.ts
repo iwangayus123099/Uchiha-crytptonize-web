@@ -205,4 +205,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Bridge memindahkan token antar chain; berisiko jika belum ter-audit dengan matang.',
     topic: 'Skala',
   },
+  {
+    question: 'Apa itu gas war?',
+    options: ['Perang senjata masa depan', 'Keadaan harga gas naik karena banyak transaksi memperebutkan blok', 'Diskon warung kelontong', 'Drama TV mingguan'],
+    answerIndex: 1,
+    explanation: 'Saat jaringan ramai, pengguna menawar gas lebih tinggi agar transaksi diproses lebih dulu.',
+    topic: 'Skala',
+  },
 ];
