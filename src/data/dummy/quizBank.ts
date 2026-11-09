@@ -303,4 +303,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Volume mencerminkan tingkat keterlibatan pasar; trend kuat biasanya diiringi volume tinggi.',
     topic: 'Trading',
   },
+  {
+    question: 'Apa itu limit order?',
+    options: ['Order yang hanya tereksekusi di harga yang dibidik', 'Batas surat masuk', 'Order tanpa batas waktu', 'Batas gudang'],
+    answerIndex: 0,
+    explanation: 'Limit order memberi kontrol harga, cocok saat pasar bergerak cepat.',
+    topic: 'Trading',
+  },
 ];
