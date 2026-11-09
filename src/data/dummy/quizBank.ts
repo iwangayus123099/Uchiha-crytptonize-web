@@ -310,4 +310,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Limit order memberi kontrol harga, cocok saat pasar bergerak cepat.',
     topic: 'Trading',
   },
+  {
+    question: 'Apa itu slippage?',
+    options: ['Selisih harga eksekusi dengan harga yang diharapkan', 'Pisah jalur pada tikungan', 'Selip kayu di jalan raya', 'Gaya berlari'],
+    answerIndex: 0,
+    explanation: 'Slippage besar di pasar likuiditas rendah; cek sebelum melakukan swap.',
+    topic: 'Trading',
+  },
 ];
