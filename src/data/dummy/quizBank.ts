@@ -163,4 +163,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Cloud dapat diakses oleh orang lain jika akun bocor; catat offline di media fisik.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Apa itu phishing di crypto?',
+    options: ['Jenis festival tahunan', 'Tipuan situs atau pesan palsu untuk mencuri kredensial wallet', 'Jenis ikan di pelabuhan', 'Gaya berenang delfin'],
+    answerIndex: 1,
+    explanation: 'Jangan klik tautan tak terverifikasi; selalu cek domain sebelum memasukkan seed phrase.',
+    topic: 'Keamanan',
+  },
 ];
