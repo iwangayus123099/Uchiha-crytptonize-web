@@ -121,4 +121,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Node menjaga sinkronisasi data jaringan; makin banyak node makin terdesentralisasi.',
     topic: 'Dasar Blockchain',
   },
+  {
+    question: 'Apa itu block height?',
+    options: ['Tinggi menara pengawas', 'Nomor urut blok sejak blok genesis', 'Ukuran layar monitor', 'Harga kursi tempat duduk'],
+    answerIndex: 1,
+    explanation: 'Block height adalah jumlah blok sejak blok pertama; dipakai juga untuk mengukur waktu jaringan.',
+    topic: 'Dasar Blockchain',
+  },
 ];
