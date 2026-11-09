@@ -16,4 +16,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Private key adalah kunci rahasia pengendali aset; jika bocor, aset bisa dicuri.',
     topic: 'Keamanan',
   },
+  {
+    question: 'Apa itu seed phrase?',
+    options: ['Kode diskon belanja', '12-24 kata untuk memulihkan akses wallet', 'Password website', 'Nomor rekening bank'],
+    answerIndex: 1,
+    explanation: 'Seed phrase adalah cadangan berupa frasa untuk memulihkan wallet; disimpan offline di tempat aman.',
+    topic: 'Keamanan',
+  },
 ];
