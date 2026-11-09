@@ -191,4 +191,11 @@ export interface QuizItem {\n  question: string;\n  options: string[];\n  answer
     explanation: 'Metaverse memakai token dan NFT untuk kepemilikan tanah virtual, avatar, dan item.',
     topic: 'NFT',
   },
+  {
+    question: 'Apa itu layer-2 (L2)?',
+    options: ['Lantai dua gedung', 'Solusi skala yang memproses transaksi di atas jaringan utama', 'Level dalam game', 'Kartu kredit tambahan'],
+    answerIndex: 1,
+    explanation: 'L2 memproses transaksi off-chain lalu menambahkan bukti ke chain utama: murah dan cepat.',
+    topic: 'Skala',
+  },
 ];
